@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Claude">
+  <diagram name="Map3_Service_Models" id="Map3_Service_Models">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1040" pageHeight="520" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFD966;strokeColor=#BF9000;fontSize=15;fontStyle=1;fontColor=#333300;" value="CLOUD SERVICE&#xa;MODELS" vertex="1">
+          <mxGeometry height="80" width="260" x="390" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iaas" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#6C9BD1;fontSize=13;fontStyle=1;" value="IaaS&#xa;Infrastructure as&#xa;a Service" vertex="1">
+          <mxGeometry height="55" width="210" x="40" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iaas_user" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE5E7;strokeColor=#C0504D;fontSize=12;" value="User manages:&#xa;OS, runtime, apps,&#xa;data" vertex="1">
+          <mxGeometry height="60" width="210" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="paas" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#6C9BD1;fontSize=13;fontStyle=1;" value="PaaS&#xa;Platform as&#xa;a Service" vertex="1">
+          <mxGeometry height="55" width="210" x="290" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="paas_user" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE5E7;strokeColor=#C0504D;fontSize=12;" value="User manages:&#xa;applications&#xa;&amp; data only" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="saas" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#6C9BD1;fontSize=13;fontStyle=1;" value="SaaS&#xa;Software as&#xa;a Service" vertex="1">
+          <mxGeometry height="55" width="210" x="540" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="saas_user" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE5E7;strokeColor=#C0504D;fontSize=12;" value="User manages:&#xa;only their data &amp;&#xa;usage settings" vertex="1">
+          <mxGeometry height="60" width="210" x="540" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="xaas" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#6C9BD1;fontSize=13;fontStyle=1;" value="XaaS&#xa;Anything as&#xa;a Service" vertex="1">
+          <mxGeometry height="55" width="210" x="790" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xaas_note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B65;fontSize=13;fontStyle=1;" value="Extends the same&#xa;provider / user split&#xa;to specialised services" vertex="1">
+          <mxGeometry height="60" width="210" x="790" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="title" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="iaas" value="provides">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="iaas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="iaas_ex" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="iaas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="iaas_prov" value="provider responsibility">
+          <mxGeometry relative="1" x="-0.7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="iaas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="iaas_user" value="user responsibility">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="title" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="paas" value="provides">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="paas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="paas_ex" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="paas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="paas_prov" value="provider responsibility">
+          <mxGeometry relative="1" x="-0.7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="paas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="paas_user" value="user responsibility">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="title" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="saas" value="provides">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="saas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="saas_ex" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="saas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="saas_prov" value="provider responsibility">
+          <mxGeometry relative="1" x="-0.7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="saas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="saas_user" value="user responsibility">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="title" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="xaas" value="extends to">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="xaas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="xaas_ex" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="xaas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;" target="xaas_note" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="iaas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;dashed=1;strokeColor=#999999;" target="paas" value="abstracts further into">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="paas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;dashed=1;strokeColor=#999999;" target="saas" value="abstracts further into">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="saas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;strokeColor=#666666;fontSize=10;jettySize=auto;dashed=1;strokeColor=#999999;" target="xaas" value="generalises into">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paas_ex" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;size=14;fontSize=11;" value="e.g. Google App&#xa;Engine, Heroku" vertex="1">
+          <mxGeometry height="50" width="210" x="290" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="iaas_ex" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;size=14;fontSize=11;" value="e.g. AWS EC2,&#xa;Azure VMs" vertex="1">
+          <mxGeometry height="50" width="210" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="saas_ex" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;size=14;fontSize=11;" value="e.g. Gmail,&#xa;Microsoft 365" vertex="1">
+          <mxGeometry height="50" width="210" x="540" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="xaas_ex" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;size=14;fontSize=11;" value="e.g. FaaS, DBaaS,&#xa;Security-as-a-Service" vertex="1">
+          <mxGeometry height="50" width="210" x="790" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="iaas_prov" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7E4;strokeColor=#82B366;fontSize=12;" value="Provider manages:&#xa;servers, storage,&#xa;network, virtualization" vertex="1">
+          <mxGeometry height="60" width="210" x="40" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="paas_prov" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7E4;strokeColor=#82B366;fontSize=12;" value="Provider manages:&#xa;infra + OS + runtime&#xa;+ middleware" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="saas_prov" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7E4;strokeColor=#82B366;fontSize=12;" value="Provider manages:&#xa;everything - infra to&#xa;application" vertex="1">
+          <mxGeometry height="60" width="210" x="540" y="335" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
